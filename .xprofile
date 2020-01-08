@@ -1,0 +1,17 @@
+#!/bin/sh
+# 
+# ~/.profile
+# 
+
+# Workaround to get Dolphin with icons
+export XDG_CURRENT_DESKTOP="GNOME"
+export QT_QPA_PLATFORMTHEME="qt5ct"
+
+# Xmodmap
+/usr/bin/xmodmap $HOME/.xmodmap
+
+# Start my private DE's programs
+stalonetray &
+feh --randomize --bg-fill /home/togald/Wallpapers/landscape &
+mount $HOME/ramdisk &
+/opt/thinkpad-l390-yoga-scripts/watch_tablet &
