@@ -29,7 +29,7 @@ import qualified Data.Map        as M
 main = xmonad =<< statusBar myBar myPP toggleStrutsKey myConfig
 
 -- Command to launch the bar.
-myBar = "xmobar --alpha=150 -x 1 ~/.xmobarrc.hs"
+myBar = "xmobar --alpha=150 ~/.xmobarrc.hs"
 
 -- Custom PP, configure it as you like. It determines what is being written to the bar.
 myPP = xmobarPP { ppTitle = xmobarColor "#00b0ff" "" . shorten 100
