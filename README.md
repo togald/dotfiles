@@ -10,6 +10,9 @@ Mah dotfiles
 - pulseaudio
 - dmenu
 - feh
+- xorg-server
+- xrandr
+- sddm
 
 ## Optdepends
 
@@ -17,3 +20,4 @@ Mah dotfiles
 - gpicview
 - galculator
 - chromium
+- arandr
