@@ -89,3 +89,10 @@ From there on, it's all git. Make changes, check them out as different branches 
 - galculator
 - chromium
 - arandr
+
+# Todo
+
+Automated installation script that backs up already existing files? Convert workflow to: 
+1. git clone to .cfg
+2. run .cfg/install.sh
+3. Enjoy! 
