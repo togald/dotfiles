@@ -92,7 +92,9 @@ From there on, it's all git. Make changes, check them out as different branches 
 
 # Todo
 
-Automated installation script that backs up already existing files? Convert workflow to: 
-1. git clone to .cfg
-2. run .cfg/install.sh
-3. Enjoy! 
+- Automated installation script that backs up already existing files? Convert workflow to: 
+    1. git clone to .cfg
+    2. run .cfg/install.sh
+    3. Enjoy! 
+
+- Scripts! How to deal? Maybe have $HOME/bin for scripts and then use ~/.config/autostart? Use dex, yay/nay? 
